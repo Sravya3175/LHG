@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  padding: 0px;
+  margin: 0px;
+}
+main {
+  position: absolute;
+  left: 30%; 
+}
+header {
+  background-color: rgb(40, 62, 74);
+  width: 100%;
+}
+#header-nav {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+#header-nav div {
+  display: inline-block;
+} 
+#logo {
+  height: 30px;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-right: 5px;
+} 
+#search-box {
+  height: 30px;
+  width: auto;
+  margin-right: 150px;
+  top: -10px;
+  position: relative;
+}
+#icons-list div {
+  display: inline-block;
+  margin: auto 10px;
+}
+.input-icon i {
+  position: absolute;
+}
+li {
+  display: block;
+  font-size: 20px;
+  color: aliceblue;
+  margin: 10px auto 1px auto;
+  text-align: center;
+  margin: 5px 15px;
+}
+span {
+  color: aliceblue;
+  text-align: right;
+}
+#pre span{
+  color: goldenrod;
+}
+section {
+  border: 1px solid gray;
+  width: fit-content;
+  padding: 10px;
+  box-shadow: 1px 1px grey;
+}
+#profile-image, #profile-details  {
+  display: inline-block;
+}
+#profile-details span {
+  color: black;
+  display: inline-block;
+}
+#follow i span{
+  font-size: 1.4em;
+}
+#follow i {
+  float: right;
+  top: -45px;
+  position: relative;
+}
+#img {
+  width: 100%;
+}
